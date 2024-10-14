@@ -1,0 +1,30 @@
+name: Run Python Scripts
+
+on: [push, pull_request]
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run template.py
+        run: python template.py
+
+      - name: Run Assignment.py
+        run: python Assignment.py
+
+      - name: Upload generated files
+        uses: actions/upload-artifact@v3
+        with:
+          name: output-files
+          path: "./Results"  # Adjust the path to match where your scripts create the files
