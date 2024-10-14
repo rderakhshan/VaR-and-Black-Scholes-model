@@ -1,4 +1,4 @@
-# Name: Python implementation of VaR and Call and Put option pricing
+# Python implementation of VaR and Black–Scholes model
 
 ## Overview
 This toolkit is a python implementation to claclulate VaR and call and put option price and performing a unit test
