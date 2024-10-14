@@ -73,6 +73,9 @@ class Pricing:
         for i in range(self.No_DV_payments):
 
             self.F = self.F - self.divident_points[i]*np.exp(-(self.Ir_rate - self.Covar_yield)*self.relative_days[i])
+            
+            # Given that in our problem, didivent is zero, hence, the second part automatically will be zero.However, 
+            # for the sake of generality. Its general form is implemented. 
 
         return self.F
     
