@@ -1,0 +1,7 @@
+numpy
+pandas
+openpyxl
+plotly-express
+nbformat==4.2.0
+ipykernel
+matplotlib
