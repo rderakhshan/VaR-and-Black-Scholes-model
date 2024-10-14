@@ -23,8 +23,6 @@ class CSVLoader:
         return pd.read_csv(file_path)
 
 
-# df = pd.read_csv("/Users/vahid/Downloads/Project/Artifacts/VaR.csv")
-
 
 class VaR:
     """" 

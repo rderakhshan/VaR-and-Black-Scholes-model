@@ -52,6 +52,6 @@ def unit_test_parity(Trade_date, Expire_date, Spot_price, Strike_price, Interest
 
     c_p = float(Spot_price - Strike_price*np.exp(- Interest_rate*time_horozon))
     
-    print(float("{:.2f}".format(c_p)))
+    # print(float("{:.2f}".format(c_p)))
 
     return  float("{:.2f}".format(c_p))
