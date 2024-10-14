@@ -1,0 +1,12 @@
+[2024-10-14 17:37:08,198] 12 root - INFO - Data ingestion part is started.
+[2024-10-14 17:37:08,198] 46 root - INFO - Data ingestion part for VaR calcualtion is started.
+[2024-10-14 17:37:08,198] 51 root - INFO - Data ingestion part is done.
+[2024-10-14 17:37:08,283] 51 root - INFO - Data ingestion part for VaR calcualtion is done.
+[2024-10-14 17:37:08,283] 56 root - INFO - Option pricing calculation is strarted.
+[2024-10-14 17:37:08,289] 71 root - INFO - Option pricing calculation is done.
+[2024-10-14 17:37:08,289] 76 root - INFO - Loading the transformed data for VaR calculation is started.
+[2024-10-14 17:37:08,291] 80 root - INFO - Loading the transformed data for VaR calculation is done.
+[2024-10-14 17:37:08,291] 82 root - INFO - VaR calculations for three different shift-types is started.
+[2024-10-14 17:37:08,308] 95 root - INFO - VaR calculations for three different shift-types is done.
+[2024-10-14 17:37:08,308] 99 root - INFO - Unit test part is started.
+[2024-10-14 17:37:08,317] 104 root - INFO - Unit test part is done.
