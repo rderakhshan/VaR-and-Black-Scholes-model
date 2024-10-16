@@ -46,6 +46,7 @@ class EXLLoader:
         
         # Check if the file exists
         if not os.path.isfile(file_path):
+            
             raise FileNotFoundError(f"{self.filename} not found in {self.directory}")
         
         logging.info("Data ingestion part is done.")
